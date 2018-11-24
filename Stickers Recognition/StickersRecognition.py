@@ -7,7 +7,6 @@ def getKey(item):
 image = cv2.imread("input/markered/box_right.jpg")
 image = cv2.resize(image,(1920,1080))
 
-#Normalize
 imageHSV = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
 hsv_min = np.array([26,210,231])
